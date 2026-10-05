@@ -6,7 +6,7 @@
 - Wersja Git: 2.47.3
 - Wersja kompilatora C++: 14.2.0
 - Wersje java i javac: 17.0.20.1
-- Link do pierwszego PR (uzupełnij w zadaniu 5): ...
+- Link do pierwszego PR (uzupełnij w zadaniu 5): https://github.com/JerzT/oop-lab00-M_S/pull/1
 
 ## Uruchomienie lokalne
 Wynik programu C++:
@@ -36,10 +36,20 @@ Fix: ending line with semicolon
 - Czy Actions pokazały błąd, a po naprawie sukces? Tak
 
 ## Krótkie odpowiedzi
-1. Co różni commit od push? Commit is saving on local device on which commit was made,
+1. Co różni commit od push?
+Commit is saving on local device on which commit was made,
 push send all the changed to location of remote (could be local or in the cloude).
-2. Dlaczego po scaleniu PR wykonuję lokalnie pull? 
-3. Co potwierdza zielony wynik naszego CI, a czego nie potwierdza? ...
+2. Dlaczego po scaleniu PR wykonuję lokalnie pull?
+To be 100% sure that we have everythink up to date on or local machine
+3. Co potwierdza zielony wynik naszego CI, a czego nie potwierdza? 
+green result indicates us that: 
+code was properly build up,
+ autotests go without error.
+But from that we don't know:
+if in program are bugs,
+program is working properly,
+code is secured,
+if it will work on other devices without error.
 
 ## Ewentualne problemy środowiska
-Brak / opis problemu i sposób rozwiązania: ...
+Brak / opis problemu i sposób rozwiązania: brak
